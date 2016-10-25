@@ -32,10 +32,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent intent = null;
         switch (v.getId()) {
             case R.id.way1:
-                intent = new Intent(MainActivity.this, AutoCountTimeActivity.class);
+                intent = new Intent(MainActivity.this, Way1Activity.class);
                 break;
             case R.id.way2:
-                intent = new Intent(MainActivity.this, AutoCountTimeActivity.class);
+                intent = new Intent(MainActivity.this, Way2Activity.class);
                 break;
             case R.id.way3:
                 intent = new Intent(MainActivity.this, AutoCountTimeActivity.class);
