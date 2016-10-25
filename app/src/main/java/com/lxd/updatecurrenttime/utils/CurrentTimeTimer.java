@@ -1,4 +1,4 @@
-package com.lxd.updatecurrenttime;
+package com.lxd.updatecurrenttime.utils;
 
 import android.os.Handler;
 import android.os.Message;

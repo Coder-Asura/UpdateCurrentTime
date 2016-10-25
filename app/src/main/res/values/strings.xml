@@ -1,7 +1,19 @@
 <resources>
     <string name="app_name">UpdateCurrentTime</string>
+
+    <string name="current_time">当前时间</string>
     <string name="start_update">开始刷新时间</string>
     <string name="stop_update">停止刷新时间</string>
+
+    <string name="start">开始计时</string>
+    <string name="pause">暂停计时</string>
+    <string name="go_on">继续计时</string>
+    <string name="stop">停止计时</string>
+
     <string name="way1">Timer 方式实现</string>
     <string name="way2">Handler 方式实现</string>
+    <string name="way3">自定义View 方式实现</string>
+
+    <string name="desc">自定义“自动计时TextView”，写完去百度才发现官方还有个Chronometer控件，功能更强大，瞬间感觉我
+        的Low爆了(我还在想为什么Github上没人分享，醉了&#8230;)，但还是不要脸的push了。\n第一次在Github上分享，勿怪勿怪，哈哈！</string>
 </resources>

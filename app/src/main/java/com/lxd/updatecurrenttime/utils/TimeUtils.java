@@ -1,4 +1,4 @@
-package com.lxd.updatecurrenttime;
+package com.lxd.updatecurrenttime.utils;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

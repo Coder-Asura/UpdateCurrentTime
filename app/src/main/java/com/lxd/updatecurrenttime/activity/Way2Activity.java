@@ -1,4 +1,4 @@
-package com.lxd.updatecurrenttime;
+package com.lxd.updatecurrenttime.activity;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -8,6 +8,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.lxd.updatecurrenttime.R;
+import com.lxd.updatecurrenttime.utils.TimeUtils;
 
 /**
  * Created by Liuxd on 2016/10/25 17:27.
@@ -42,11 +45,9 @@ public class Way2Activity extends AppCompatActivity implements View.OnClickListe
         tv_current_time2 = (TextView) findViewById(R.id.current_time2);
         Button start_update2 = (Button) findViewById(R.id.start_update2);
         Button stop_update2 = (Button) findViewById(R.id.stop_update2);
-        Button way1 = (Button) findViewById(R.id.way1);
 
         start_update2.setOnClickListener(this);
         stop_update2.setOnClickListener(this);
-        way1.setOnClickListener(this);
     }
 
     @Override
@@ -58,9 +59,6 @@ public class Way2Activity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.stop_update2:
                 mHandler.sendEmptyMessage(0x00);
-                break;
-            case R.id.way1:
-                finish();
                 break;
         }
     }
