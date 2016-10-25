@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UpdateCurrentTime</string>
+    <string name="start_update">开始刷新时间</string>
+    <string name="stop_update">停止刷新时间</string>
+    <string name="way1">Timer 方式实现</string>
+    <string name="way2">Handler 方式实现</string>
+</resources>
